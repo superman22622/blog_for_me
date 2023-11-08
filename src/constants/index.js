@@ -1,15 +1,15 @@
-export const NAME = 'Daniel Pitt';
-export const CREATED_BY = 'Page created by Daniel';
+export const NAME = 'Wang Jin';
+export const CREATED_BY = 'Page created by Wang';
 export const ABOUT_ME = 'I am a proficient and self-motivated Software Developer with 7 years of successful experience. My passion for working in this field is immense, and I am always eager to learn the latest and most updated materials. I consistently strive to improve my skills and deliver high-quality work. Apart from my technical expertise, I possess a keen eye for design and user experience. This allows me to create intuitive and engaging interfaces that keep users coming back for more. Whether you need a new website, an overhaul of an existing application, or a custom e-commerce platform, I have the necessary expertise and experience to deliver exceptional results.I strongly believe in the values of hard work and honesty. Building long-term professional relationships with my clients is of utmost importance to me, as it ensures the success of every project.';
-export const SKYPE_ADDRESS = 'https://join.skype.com/invite/FTt0mmHoS1V2';
-export const GITHUB_ADDRESS = 'https://github.com/mostspace/';
-export const GMAIL_ADDRESS = 'mailto:danielpitt1027@gmail.com';
-export const DISCORD_ADDRESS = 'https://discord.com/invite/HvTK3yws';
+export const SKYPE_ADDRESS = '';
+export const GITHUB_ADDRESS = '';
+export const GMAIL_ADDRESS = '';
+export const DISCORD_ADDRESS = '';
 
 export const INTRO_HEADER = 'Web & Mobile Development | Web & App Design';
 export const INTRO_CONTENT = "My Mission Is To Continually Improve Each Subsequent Project, Surpassing The Quality Of The Previous One. This Commitment Has Resulted In A Remarkable 70% Repeat Hire Rate, And I Have Had The Privilege Of Working With Certain Clients For Over 7 Years. This Is More Than Just A Job To Me. It Is My Life's Passion.";
 
-export const WHO_I_AM_TITLE = 'My name is Daniel Pitt and I am a full stack developer.';
+export const WHO_I_AM_TITLE = 'My name is Wang Jin and I am a full stack developer.';
 export const WHO_I_AM_CONTENT = [
     "Over the past 7 years, I have worked as a Full Stack developer in the field of Web/Mobile Application development.",
     "In addition to the technical skills, I have a keen eye for design and user experience, allowing me to create intuitive and engaging interfaces that keep users coming back. Throughout my career, I have been involved in both native and cross-platform development. My dedication to critical thinking, meticulousness, and staying up-to-date with the latest technologies has enabled me to progress to the position of a senior full stack developer in my current role.",
