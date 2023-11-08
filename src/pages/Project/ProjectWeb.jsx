@@ -41,7 +41,7 @@ const ProjectApp = () => {
 
       <main>
         <section className="proyectos mas-proyect" id="proyectos">
-          <h1 className="heading">
+          <h1 className="heading" data-section="Nav" data-value="projects">
             <FormattedMessage
               id='projects'
               defaultMessage='Projects'
@@ -69,7 +69,7 @@ const ProjectApp = () => {
           </nav>
         </section>
 
-        <section className="projects__grid apps">
+        <section className="projects__grid paginas-web">
           <div className="projects__item">
             <a onClick={() => cambiarEstadoModal17(!estadoModal17)}>
               <img src={proyectsImg(`./pro_web/pro_1.jpg`)} alt="" className="projects__img" />
