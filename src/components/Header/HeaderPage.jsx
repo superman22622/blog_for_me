@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import "./Header.css";
 
+import * as Constant from '../../constants';
 /* React router */
 import { NavLink } from "react-router-dom";
 
@@ -38,7 +39,7 @@ const HeaderPage = () => {
 
       <NavLink className="logo" to="/">
         <p>
-          <span>Daniel Pitt</span>
+          <span>{Constant.NAME}</span>
         </p>
       </NavLink>
 
