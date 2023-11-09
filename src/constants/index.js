@@ -1,14 +1,19 @@
+// Name and Simple Intro
 export const NAME = 'Wang Jin';
 export const CREATED_BY = 'Page created by Wang';
 export const ABOUT_ME = 'I am a proficient and self-motivated Software Developer with 7 years of successful experience. My passion for working in this field is immense, and I am always eager to learn the latest and most updated materials. I consistently strive to improve my skills and deliver high-quality work. Apart from my technical expertise, I possess a keen eye for design and user experience. This allows me to create intuitive and engaging interfaces that keep users coming back for more. Whether you need a new website, an overhaul of an existing application, or a custom e-commerce platform, I have the necessary expertise and experience to deliver exceptional results.I strongly believe in the values of hard work and honesty. Building long-term professional relationships with my clients is of utmost importance to me, as it ensures the success of every project.';
+
+// Contact Info
 export const SKYPE_ADDRESS = '';
 export const GITHUB_ADDRESS = '';
 export const GMAIL_ADDRESS = '';
 export const DISCORD_ADDRESS = '';
 
+// Main Intro
 export const INTRO_HEADER = 'Web & Mobile Development | Web & App Design';
 export const INTRO_CONTENT = "My Mission Is To Continually Improve Each Subsequent Project, Surpassing The Quality Of The Previous One. This Commitment Has Resulted In A Remarkable 70% Repeat Hire Rate, And I Have Had The Privilege Of Working With Certain Clients For Over 7 Years. This Is More Than Just A Job To Me. It Is My Life's Passion.";
 
+// What i am
 export const WHO_I_AM_TITLE = 'My name is Wang Jin and I am a full stack developer.';
 export const WHO_I_AM_CONTENT = [
     "Over the past 7 years, I have worked as a Full Stack developer in the field of Web/Mobile Application development.",
@@ -16,6 +21,7 @@ export const WHO_I_AM_CONTENT = [
     "Due to the pandemic, I had to transition to remote work, and I discovered that it was an exciting and efficient method of working. I thoroughly enjoyed the experience and found it to be highly productive. I always strive to build long-term professional relationships with my clients. This approach ensures that every project I undertake becomes successful."
 ];
 
+// What i do
 export const WHAT_I_DO = [
     {
         header: 'Web Development',
@@ -44,6 +50,7 @@ export const WHAT_I_DO = [
     },
 ];
 
+// About Skills
 export const FRONT_END_SKILLS = [
     {
         name: 'HTML',
@@ -77,7 +84,6 @@ export const FRONT_END_SKILLS = [
         link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'
     },
 ];
-
 export const BACK_END_SKILLS = [
     {
         name: 'Nodejs',
@@ -111,7 +117,6 @@ export const BACK_END_SKILLS = [
         link: 'https://upload.wikimedia.org/wikipedia/commons/9/98/Solidity_logo.svg'
     },
 ];
-
 export const MOBILE_SKILLS = [
     {
         name: 'Android',

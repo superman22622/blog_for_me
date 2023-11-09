@@ -142,7 +142,7 @@ const ProjectApp = () => {
               <h1>
                 <FormattedMessage
                   id='projects-info-17-p1c'
-                  defaultMessage='Veggie Craft Farms / WordPress'
+                  defaultMessage='Build A Bear'
                 />
               </h1>
               <p>
@@ -154,7 +154,7 @@ const ProjectApp = () => {
                 />
               </p>
               <div className="eins-modal-text-2">
-                <span>Link:</span> <a href="https://veggiecraftfarms.com/" target="_blank">https://veggiecraftfarms.com</a>
+                <span>Link:</span> <a href="https://www.buildabear.co.uk/" target="_blank">https://www.buildabear.co.uk/</a>
               </div>
             </div>
           </div>
@@ -172,17 +172,17 @@ const ProjectApp = () => {
               <h1>
                 <FormattedMessage
                   id='projects-info-14-p1c'
-                  defaultMessage='Coinzix Cryptocurrency Exchange'
+                  defaultMessage='Milkable'
                 />
               </h1>
               <p>
                 <FormattedMessage
                   id='projects-info-14-p2c'
-                  defaultMessage='Buy and sell bitcoins and altcoins on one of the most convenient and reliable crypto platforms.'
+                  defaultMessage='Milkable is a creative agency with an attention-grabbing and colorful homepage. Despite the bevy of milk branding, Milkable is, as far as I can tell, not funded by the dairy industry.'
                 />
               </p>
               <div className="eins-modal-text-2">
-                <span>Link:</span> <a href="https://zix.coinzix.com/" target="_blank">https://zix.coinzix.com/</a>
+                <span>Link:</span> <a href="https://www.milkable.com.au/" target="_blank">https://www.milkable.com.au/</a>
               </div>
             </div>
           </div>

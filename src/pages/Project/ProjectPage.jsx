@@ -28,6 +28,9 @@ function Project() {
     const [estadoModal14, cambiarEstadoModal14] = useState(false);
     const [estadoModal13, cambiarEstadoModal13] = useState(false);
     const [estadoModal12, cambiarEstadoModal12] = useState(false);
+    const [estadoModal11, cambiarEstadoModal11] = useState(false);
+    const [estadoModal10, cambiarEstadoModal10] = useState(false);
+    const [estadoModal9, cambiarEstadoModal9] = useState(false);
 
     return (
         <div>
@@ -98,6 +101,21 @@ function Project() {
                             <img src={proyectsImgApp(`./pro_app/a_5.png`)} alt="" className="projects__img" />
                         </a>
                     </div>
+                    <div className="projects__item">
+                        <a onClick={() => cambiarEstadoModal11(!estadoModal11)}>
+                            <img src={proyectsImgApp(`./pro_app/a_6.png`)} alt="" className="projects__img" />
+                        </a>
+                    </div>
+                    <div className="projects__item">
+                        <a onClick={() => cambiarEstadoModal10(!estadoModal10)}>
+                            <img src={proyectsImgApp(`./pro_app/a_7.png`)} alt="" className="projects__img" />
+                        </a>
+                    </div>
+                    <div className="projects__item">
+                        <a onClick={() => cambiarEstadoModal9(!estadoModal9)}>
+                            <img src={proyectsImgApp(`./pro_app/a_8.png`)} alt="" className="projects__img" />
+                        </a>
+                    </div>
                 </section>
             </main>
 
@@ -109,35 +127,57 @@ function Project() {
                     <div className="pw-content">
                         <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-18-com.png`)} alt="" /></div>
                         <div className="eins-modal-text">
-                            <h1>Copy Me That recipe manager</h1>
+                            <h1>Acorns: Save & Invest</h1>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-18-p1'
-                                    defaultMessage="Copy Me That combines a recipe manager, shopping list, and meal planner into one seamless flow. Easily add recipes from any website with a single click, or add your own recipes. Copy Me That syncs with all your devices so you'll have online access anywhere.
+                                    defaultMessage="Acorns helps you invest and save for your future. With over 20 million downloads and $15+ billion invested for our customers since launch, we are an ultimate investing and money-saving app. Get started in minutes, and give your money a chance to grow.
 
-
-                                    Edit any part of a recipe to remember your recipe tweaks. Add your own masterpiece photos - or fun flop photos, as the case may be!
+                                    “Investing is now made for everyone.” - Forbes (1)
                                     
+                                    Invest, save, learn and grow with Acorns. Receive the tools to help your money grow.
                                     
-                                    Organize your collection with tags or just use search to find what you're looking for.
+                                    + INVEST FOR YOUR FUTURE - Your money is automatically invested into one of our diversified, ETF portfolios, built by experts and recommended for you. Plus, easily personalize your investments with a Bitcoin-linked ETF and a Custom Portfolio option which allows you to invest in stocks from a list of 100+ public U.S. companies. At Acorns, we keep diversification in mind with the belief it can help you make the most of your money.
                                     
+                                    +INVEST THE CHANGE® - Invest spare change with automatic Round-Ups®, and invest money in the background of life with recurring investments.
                                     
-                                    Plan your meals ahead of time with the meal planner and then head off to the grocery store with your shopping list. Sort your shopping list by recipe or category (aisle) to easily find your items in the store.
+                                    + INVEST FOR YOUR KIDS - With Acorns Early, you can start investing for the future of your loved ones. Our UTMA / UGMA investment account for kids features custom Earn rewards and education for families. Invest automatically into a diversified, ETF portfolio, built by experts.
                                     
+                                    + TEACH YOUR KIDS MONEY SKILLS - GoHenry is a debit card and learning app for kids that helps them grow their money skills. Kids get their own debit card and can earn money with automatic allowance and chore payments. Parents can set spending limits, get real-time notifications when your kids use their card, and instantly send money to your kid’s account. Valued at up to $9.98/mo, GoHenry comes included with an Acorns Premium subscription.
                                     
-                                    Looking for inspiration? Then see what others are sharing in the Copy Me That Community. You decide how much (or little) you want to share.
+                                    + INVEST FOR RETIREMENT - Save money for retirement with our easy IRA investing options, featuring SEP, Traditional, and Roth plans.
                                     
+                                    + BANK SMARTER - Get an Acorns Checking account and a heavy metal debit card that invests your spare change when you spend and automatically invests a portion of every paycheck. Get paid up to 2 days early when you set up direct deposit with Acorns Checking. Set an Emergency Fund goal and automatically start saving a piece of each paycheck.
                                     
-                                    We've made sure that your iPad or iPhone won't go to sleep while you're following a recipe. (We know how annoying it is when that happens!)
+                                    + EARN REWARDS - Shop 15,000+ brands and receive bonus investments and exclusive deals from your favorite brands. Earn limited-time referral bonuses of up to $1,200. The more you earn, the more you can save and invest! Plus, try our Acorns Earn Safari Extension to automatically earn rewards while you shop.
                                     
+                                    + GROW YOUR KNOWLEDGE - Custom financial literacy content right in your app. Learn how to grow your money, investment and savings strategies, and more.
                                     
-                                    Your recipes belong to you and you can download them at any time.
+                                    SAVE AND INVEST RESPONSIBLY WITH A MISSION-LED PARTNER
                                     
+                                    MISSION: With benevolence and courage, we look after the financial best interests of the up-and-coming, beginning with the empowering, proud step of micro-investing.
                                     
-                                    The free version has a full set of features and may be all you'll ever need. No recipe limits. The Premium memberships gives you a rich set of extra features (and is the one in-app purchase).
+                                    INVESTING PHILOSOPHY: The time-tested power of compounding, diversification, and sticking with it gives your money a chance to grow long-term.
                                     
+                                    BACKED BY: Investors like Blackrock, PayPal, Dwayne Johnson, and Ashton Kutcher.
                                     
-                                    Note that the recipe detection, when adding recipes from other websites, is currently optimized for English."
+                                    SECURITY: Acorns Securities, LLC is a member of SIPC. Securities in your account are protected up to $500,000. For details, please see www.sipc.org. SIPC does not protect against market risk, which is the risk inherent in a fluctuating market. Acorns checking accounts are FDIC-insured up to $250,000 through Lincoln Savings Bank or nbkc bank, Members FDIC, plus fraud protection, 256-bit data encryption, and all-digital card lock. Learn more about how FDIC protection works at www.fdic.gov.
+                                    
+                                    NO HIDDEN FEES
+                                    
+                                    Starts at $3 a month.
+                                    
+                                    We bundle our products, tools, and education into straightforward subscription tiers so you can stay focused on investing for the long term.
+                                    
+                                    From acorns, mighty oaks do grow. Download Acorns now and grow your oak!
+                                    
+                                    —————————————
+                                    Disclosures are available in the images above and at www.acorns.com/disclosures
+                                    
+                                    Sources:
+                                    1. https://bit.ly/3iSAjhs
+                                    
+                                    5300 California Ave Irvine CA 92617"
                                 />
                             </p>
                             <p>
@@ -147,8 +187,8 @@ function Project() {
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>WebSite Link:</span> <a href="https://www.copymethat.com/" target="_blank">https://www.copymethat.com/</a><br/>
-                                <span>App Link:</span> <a href="https://apps.apple.com/us/app/copy-me-that-recipe-manager/id956800243/" target="_blank">https://apps.apple.com/us/app/copy-me-that-recipe-manager/id956800243/</a>
+                                <span>WebSite Link:</span> <a href="https://www.acorns.com/" target="_blank">https://www.acorns.com/</a><br/>
+                                <span>App Link:</span> <a href="https://play.google.com/store/apps/details?id=com.acorns.android&hl=en&gl=US&pli=1" target="_blank">https://play.google.com/store/apps/details?id=com.acorns.android&hl=en&gl=US&pli=1</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -523,6 +563,191 @@ function Project() {
                                 </span>
                                 <div className="eins-modal-tec">
                                     Flutter, NodeJS, Firebase, bitrise, fastlane, Codecov, mixpanel, Google cloud
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Modal>
+
+            <Modal
+                estado={estadoModal11}
+                cambiarEstado={cambiarEstadoModal11}
+            >
+                <div className="content-modal">
+                    <div className="pw-content">
+                        <div className="eins-modal-preview">
+                            <img src={proyectsImgApp(`./pro_app/a_6.png`)} alt="" />
+                            <img src={proyectsImgApp(`./pro_app/a_6_1.png`)} alt="" />
+                        </div>
+                        <div className="eins-modal-text">
+                            <h1>Online Anytime</h1>
+                            <h1>Solutions</h1>
+                            <p>
+                                <FormattedMessage
+                                    id='projectsApp-info-17-p2'
+                                    defaultMessage="The Online-Anytime is digital forms solution to build and distribute digital forms for inspections, checklist, or any other data collections. It is fully customizable, offline data store.
+                                    The Online-Anytime App is designed to include validation rules and data formatting options, which ensures that all data is entered correctly and accurately. The App is integrated with databases and other software applications, making it easier for organizations to manage and analyse the data they collect from employees, contractors and stakeholders."
+                                />
+                            </p>
+                            <div className="eins-modal-text-2">
+                                <span>Link:</span> <a href="https://play.google.com/store/apps/details?id=com.expodevelopment.onlineanytime" target="_blank">https://play.google.com/store/apps/details?id=com.expodevelopment.onlineanytime</a>
+                            </div>
+                            <div className="eins-modal-text-3">
+                                <span>
+                                    <FormattedMessage
+                                        id='projects-tec'
+                                        defaultMessage='Used technology:'
+                                    />
+                                </span>
+                                <div className="eins-modal-tec">
+                                    React Native, NodeJS, Firebase, bitrise, Codecov, PHP
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Modal>
+
+            <Modal
+                estado={estadoModal10}
+                cambiarEstado={cambiarEstadoModal10}
+            >
+                <div className="content-modal">
+                    <div className="pw-content">
+                        <div className="eins-modal-preview">
+                            <img src={proyectsImgApp(`./pro_app/a_7.png`)} alt="" />
+                            <img src={proyectsImgApp(`./pro_app/a_7_1.png`)} alt="" />
+                        </div>
+                        <div className="eins-modal-text">
+                            <h1>TwinSpires Horse Race Betting</h1>
+                            <h1>Solutions</h1>
+                            <p>
+                                <FormattedMessage
+                                    id='projectsApp-info-17-p2'
+                                    defaultMessage="TLive Horse racing with the TwinSpires Horse Racing Betting app, is the premier destination for legal US horse racing bets on race day. TwinSpires is the Official horse racing partner of the Kentucky Derby! Bet online now this Spring on the Kentucky Derby, Preakness Stakes and Belmont Horse Racing events!
+
+
+                                    You can legally wager and bet online on the finest daily horse racing on the planet – including the Kentucky Derby, Preakness Stakes, Belmont Stakes, Breeders’ Cup, Jeff Ruby Steaks, Dubai World Cup – every racetrack worldwide (Santa Anita, Keeneland, Del Mar, Kentucky Downs).
+                                    
+                                    
+                                    • FAST Wager Pad – construct multi-leg wagers on a single screen
+                                    
+                                    • Live programs with up to the minute racing info, results, and race day news
+                                    
+                                    • LIVE STREAMING of today’s race day action & video replays
+                                    
+                                    • Safe & secure funding and withdrawals
+                                    
+                                    • FREE HANDICAPPING information
+                                    
+                                    • Weekly bonuses, promotions & giveaways
+                                    
+                                    • Race day free picks and expert analysis"
+                                />
+                            </p>
+                            <div className="eins-modal-text-2">
+                                <span>Link:</span> <a href="https://apps.apple.com/us/app/twinspires-horse-race-betting/id948757156" target="_blank">https://apps.apple.com/us/app/twinspires-horse-race-betting/id948757156</a>
+                            </div>
+                            <div className="eins-modal-text-3">
+                                <span>
+                                    <FormattedMessage
+                                        id='projects-tec'
+                                        defaultMessage='Used technology:'
+                                    />
+                                </span>
+                                <div className="eins-modal-tec">
+                                    React Native, NodeJS, Firebase, bitrise, Codecov, PHP
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Modal>
+
+            <Modal
+                estado={estadoModal9}
+                cambiarEstado={cambiarEstadoModal9}
+            >
+                <div className="content-modal">
+                    <div className="pw-content">
+                        <div className="eins-modal-preview">
+                            <img src={proyectsImgApp(`./pro_app/a_8.png`)} alt="" />
+                            <img src={proyectsImgApp(`./pro_app/a_8_1.png`)} alt="" />
+                        </div>
+                        <div className="eins-modal-text">
+                            <h1>Wish: Shop and Save</h1>
+                            <h1>Solutions</h1>
+                            <p>
+                                <FormattedMessage
+                                    id='projectsApp-info-17-p2'
+                                    defaultMessage="Wish is home to deals on millions of items from around the world. The destination for home and life - discover everything from everyday basics, hobbies & DIY, fashion for all, the latest in tech, to the wonderfully unexpected - and everything in-between, at prices likely to make you smile! The Wish app is the internet’s best-kept secret for affordable online shopping.
+
+
+                                    DESTINATION FOR HOME AND LIFE
+                                    
+                                    Fuel your free time with a little bit of everything from electronics, fashion, automotive gear, wellness, home essentials, unique decor, the intentionally surprising, and much, much more.
+                                    
+                                    
+                                    DISCOVERY IS EASY
+                                    
+                                    - Scroll the infinite product feed that features items chosen just for you.
+                                    
+                                    - Explore by category to find just what you’re looking for.
+                                    
+                                    - Find authentic products from your favorite brands.
+                                    
+                                    
+                                    SAVE ON SHIPPING
+                                    
+                                    - Spend less to ship the deals you’ll discover with flat rate shipping.
+                                    
+                                    - Get $2.99 flat rate shipping when you spend $10 on eligible items.
+                                    
+                                    - Save even more by snagging extra shipping promos and discounts.
+                                    
+                                    - Available only in select countries.
+                                    
+                                    
+                                    SHOP AND SAVE
+                                    
+                                    - Shop daily deals and flash sales.
+                                    
+                                    - Earn a daily login stamp for every day you open the Wish app. 7 visits gets you up to 50% off!
+                                    
+                                    - Use your rewards points to save even more on your favorite items.
+                                    
+                                    
+                                    WE’VE GOT YOUR BACK
+                                    
+                                    - Every order is backed by our Wish Buyer Protection promise.
+                                    
+                                    - Get notifications about your order status every step of the way.
+                                    
+                                    - Check out securely with credit/debit card, PayPal, Klarna, and more.
+                                    
+                                    - Need help with your order? Wish Assistant is at your service 24/7.
+                                    
+                                    
+                                    SOMETHING FOR EVERYONE
+                                    
+                                    - We’ve got whatever you’re into: clothing, electronics, gardening tools, sports equipment, anime figurines, bags, decor, makeup, toys, drones, smartwatches, or designer perfume.
+                                    
+                                    - Find one-of-a-kind gifts for every occasion without going over budget."
+                                />
+                            </p>
+                            <div className="eins-modal-text-2">
+                                <span>Link:</span> <a href="https://apps.apple.com/us/app/wish-shop-and-save/id530621395" target="_blank">https://apps.apple.com/us/app/wish-shop-and-save/id530621395</a>
+                            </div>
+                            <div className="eins-modal-text-3">
+                                <span>
+                                    <FormattedMessage
+                                        id='projects-tec'
+                                        defaultMessage='Used technology:'
+                                    />
+                                </span>
+                                <div className="eins-modal-tec">
+                                    React Native, NodeJS, Firebase, bitrise, Codecov, PHP
                                 </div>
                             </div>
                         </div>

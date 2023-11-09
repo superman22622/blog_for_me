@@ -183,16 +183,16 @@
 
 .overlay {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   position: fixed;
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.5);
   padding: 4rem;
   display: flex;
-  align-items: center;
   justify-content: center;
   z-index: 200;
+  overflow-y: scroll;
 }
 
 .contenedor-modal {
@@ -202,7 +202,7 @@
   border-radius: 5px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 20px;
-  margin: 5rem 2rem 0 0;
+  margin-top: 5rem;
 }
 
 
@@ -226,17 +226,29 @@
 }
 
 .eins-modal-preview {
-  max-width: 350px;
+  width: 40%;
+  height: 100%
 }
+
+.eins-modal-text {
+  width: 55%;
+}
+
 .eins-modal-preview img {
   width: 100%;
   border-radius: 1rem;
 }
 
+.content-modal {
+  height: 100%;
+  overflow-y: scroll;
+}
+
 .pw-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, auto));
-  gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
 }
 .eins-modal-text p {
   font-size: 1.7rem;
@@ -283,8 +295,8 @@
 /********************** Media Q **********************/
 
 @media (max-width: 760px) {
-  .eins-modal-preview {
-    max-width: 200px;
+  .eins-modal-preview, .eins-modal-text {
+    width: 100%;
   }
 
   .eins-modal-text p {
@@ -299,6 +311,16 @@
   .eins-modal-text-2,
   .eins-modal-text-3 {
     font-size: 1.5rem;
+  }
+
+  .pw-content {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .eins-modal-preview {
+    margin-bottom: 2rem;
   }
 }
 
@@ -324,6 +346,8 @@
 @media (max-width: 450px) {
   .contenedor-modal {
     padding: 2rem;
-    height: 100%;
+  }
+  .eins-modal-preview, .eins-modal-text {
+    width: 100%;
   }
 }
