@@ -40,36 +40,33 @@ const ProjectApp = () => {
       <ParticleBackground />
 
       <main>
-        <section className="proyectos mas-proyect" id="proyectos">
-          <h1 className="heading" data-section="Nav" data-value="projects">
-            <FormattedMessage
-              id='projects'
-              defaultMessage='Projects'
-            />
-          </h1>
-          <nav className="navbar nav-proj">
-            <NavLink to="/project" offset={-150} duration={500}>
-              Apps
-            </NavLink>
-            <NavLink to="/project/web" offset={-150} duration={500}>
-              websites
-            </NavLink>
-            <NavLink to="/project/design" offset={-150} duration={500}>
-              <FormattedMessage
-                  id='design'
-                  defaultMessage='design'
-              />
-            </NavLink>
-            {/* <NavLink to="/project/game" offset={-150} duration={500}>
-              <FormattedMessage
-                id='games'
-                defaultMessage='games'
-              />
-            </NavLink> */}
-          </nav>
-        </section>
+      <section className="proyectos mas-proyect" id="proyectos">
+              <h1 className="heading">
+                  <FormattedMessage
+                      id='projects'
+                      defaultMessage='Projects'
+                  />
+              </h1>
+              <nav className="navbar nav-proj">
+                  <NavLink to="/project/" offset={-150} duration={500}>
+                      Apps
+                  </NavLink>
+                  <NavLink to="/project/web" offset={-150} duration={500}>
+                      websites
+                  </NavLink>
+                  <NavLink to="/project/design" offset={-150} duration={500}>
+                      design
+                  </NavLink>
+                  {/* <NavLink to="/project/game" offset={-150} duration={500}>
+                      <FormattedMessage
+                          id='games'
+                          defaultMessage='games'
+                      />
+                  </NavLink> */}
+              </nav>
+          </section>
 
-        <section className="projects__grid paginas-web">
+        <section className="projects__grid web">
           <div className="projects__item">
             <a onClick={() => cambiarEstadoModal17(!estadoModal17)}>
               <img src={proyectsImg(`./pro_web/pro_1.jpg`)} alt="" className="projects__img" />

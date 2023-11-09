@@ -49,7 +49,7 @@ function Project() {
                     </h1>
                     <nav className="navbar nav-proj">
                         <NavLink to="/project/" offset={-150} duration={500}>
-                            Apps
+                            apps
                         </NavLink>
                         <NavLink to="/project/web" offset={-150} duration={500}>
                             websites
@@ -65,7 +65,7 @@ function Project() {
                         </NavLink> */}
                     </nav>
                 </section>
-                <section className="projects__grid apps">
+                <section className="projects__grid">
                     <div className="projects__item">
                         <a onClick={() => cambiarEstadoModal18(!estadoModal18)}>
                             <img src={proyectsImgApp(`./proyecto-app-18.png`)} alt="" className="projects__img" />
