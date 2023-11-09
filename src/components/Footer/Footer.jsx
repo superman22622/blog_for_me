@@ -44,6 +44,13 @@ const Footer = () => {
           >
             <i className="fab fas fa-envelope"></i>
           </a>
+          <a
+            href={Constant.TELEGRAM_ADDRESS}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-telegram"></i>
+          </a>
         </div>
       </div>
     </footer>

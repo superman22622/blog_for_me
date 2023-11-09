@@ -59,6 +59,19 @@ const Content = () => (
             </div>
             <span>Discord</span>
           </a>
+          <a
+            className="button"
+            href={Constant.TELEGRAM_ADDRESS}
+            target="_blank"
+            rel="noopener noreferrer"
+            data-aos="fade-up"
+            data-aos-delay="1600"
+          >
+            <div className="icon">
+              <i className="fab fa-telegram"></i>
+            </div>
+            <span>Telegram</span>
+          </a>
         </div>
 
         <Link to="sobre-mi" href="#sobre-mi">

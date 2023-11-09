@@ -26,7 +26,7 @@ const Contact = () => (
           1500,
           "Telegram",
           1500,
-          "WhatsApp",
+          "Discord",
           1500,
           "Github",
           1500,
@@ -94,6 +94,21 @@ const Contact = () => (
           <span className="fab fa-github-square"></span>
         </div>
         <div className="text">GitHub</div>
+      </a>
+      <a
+        href={Constant.TELEGRAM_ADDRESS}
+        target="_blank"
+        rel="noopener noreferrer"
+        data-aos="zoom-in"
+      >
+        <div className="layer">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span className="fab fa-telegram"></span>
+        </div>
+        <div className="text">Telegram</div>
       </a>
     </div>
   </section>
