@@ -13,7 +13,7 @@ import cv from "../../cv/cv.pdf";
 import { FormattedMessage } from "react-intl";
 
 /* Img */
-import imgabout from "../../img/daniel_h.jpg";
+import imgabout from "../../img/avatar.jpg";
 
 const About = () => {
   function readMore() {

@@ -40,7 +40,7 @@ const Header = () => {
         onClick={menuDesplegable}
       ></div>
 
-      <a href="/daniel-portfolio" className="logo"><span>{Constant.NAME}</span></a>
+      <a href="/kstar0102-portfolio" className="logo"><span>{Constant.NAME}</span></a>
 
       <nav className="navbar">
         <Link to="inicio" spy={true} offset={-150} href="#inicio">
