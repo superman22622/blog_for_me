@@ -160,7 +160,7 @@
     width: 50vw;
     text-align: left !important;
     padding: 14px;
-    margin-top: 40vh !important;
+    margin-top: 15% !important;
     margin-left: 50px !important;
     background-color: #0000008f;
     border-radius: 10px;
@@ -221,6 +221,20 @@
     
     .inicio .titulo h1{
         font-size: 4rem;
+    }
+
+    .inicio > .titulo {
+        width: 100vw;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+
+    .titulo p, .titulo h1 {
+        padding: 10px !important;
+    }
+
+    .h_intro {
+        margin-bottom: 10px !important;
     }
 }
 

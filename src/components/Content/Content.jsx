@@ -12,7 +12,7 @@ import { FormattedMessage } from "react-intl";
 const Content = () => (
   <div className="contenido">
     {/* <ParticleHeaderBg /> */}
-    <section className="inicio" id="inicio">
+    <div className="inicio" id="inicio">
       <div className="titulo">
         <h1 data-aos="fade-up" data-aos-delay="500">
           <FormattedMessage id="namess" defaultMessage={Constant.INTRO_HEADER} />
@@ -65,7 +65,7 @@ const Content = () => (
           <div className="scroll-down"></div>
         </Link>
       </div>
-    </section>
+    </div>
   </div>
 );
 

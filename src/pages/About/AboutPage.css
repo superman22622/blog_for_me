@@ -214,12 +214,16 @@ section .row .columns .skill img:hover {
     grid-gap: 2rem;
 }
 
-.sobre-mi-img-container{
-    position: relative;
+.sobre-mi-img-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-start !important;
-    -webkit-align-items: flex-start !important;
+    align-items: center !important;
+    -webkit-align-items: center !important;
+}
+
+.sobre-mi-img-container > img {
+    margin-bottom: 10px;
 }
 
 .sobre-mi-info p{
@@ -252,10 +256,10 @@ section .row .columns .skill img:hover {
     background: var(--white);
     color: var(--black);
 }
-.cv_button {
+/* .cv_button {
     position: absolute;
     bottom: -40px;
-}
+} */
 
 
 /********************** Skill page **********************/
@@ -288,9 +292,7 @@ section .row .columns .skill img:hover {
     line-height: 2;
     text-transform: none;
 }
-.about_section > div:first-child, .about_section > div:nth-child(2) {
-    padding: 40px;
-}
+
 .about_section {
     margin-top: 80px;
 }
@@ -327,8 +329,21 @@ section .row .columns .skill img:hover {
     }
 
     .skill-container{
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 7rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .sobre-mi-img-container {
+        margin-right: 0 !important;
+    }
+
+    .about_section {
+        margin-top: 0;
+    }
+
+    .sobre-mi-img {
+        width: 100%;
     }
 }
 
@@ -390,7 +405,7 @@ section .row .columns .skill img:hover {
     }
 
     .skill-container{
-        grid-gap: 7rem;
+        display: flex;
     }
     .skill h5{
         background-color: var(--white);
