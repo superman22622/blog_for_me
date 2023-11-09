@@ -39,7 +39,7 @@ const About = () => {
         <section className="sobre-mi-seccion about_section" id="sobre-mi">
           <div className="sobre-mi-container" id="intro_section">
             <div className="sobre-mi-img-container">
-              <img src={imgabout} alt="" className="sobre-mi-img" />    
+              <img src={imgabout} alt="" className="sobre-mi-img avatar" />    
               <div className="cv_button">
                 <a
                   href={cv}

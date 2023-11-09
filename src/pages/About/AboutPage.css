@@ -214,6 +214,10 @@ section .row .columns .skill img:hover {
     grid-gap: 2rem;
 }
 
+.avatar {
+    filter: grayscale(100%);
+}
+
 .sobre-mi-img-container {
     display: flex;
     flex-direction: column;
