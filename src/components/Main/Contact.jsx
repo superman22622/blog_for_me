@@ -65,7 +65,7 @@ const Contact = () => (
         </div>
         <div className="text">skype</div>
       </a>
-      <a
+      {/* <a
         href={Constant.DISCORD_ADDRESS}
         target="_blank"
         rel="noopener noreferrer"
@@ -94,7 +94,7 @@ const Contact = () => (
           <span className="fab fa-github-square"></span>
         </div>
         <div className="text">GitHub</div>
-      </a>
+      </a> */}
       <a
         href={Constant.TELEGRAM_ADDRESS}
         target="_blank"

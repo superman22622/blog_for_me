@@ -63,61 +63,55 @@ const About = () => {
           </div>
 
           <div className="skill-seccion">
-            <h1 className="heading">Skills</h1>
-            <div className="skill-container">
-              {
-                Constant.FRONT_END_SKILLS.map((element) => {
-                  return <div
-                            className="skill-card"
-                            data-aos="flip-left"
-                            data-aos-delay="300"
-                          >
-                            <img
-                              alt={element.name}
-                              className="skills-img icon-li"
-                              src={element.link}
-                              title={element.name}
-                            />
-                            <h2 className="skill-name">{element.name}</h2>
-                          </div>
-                })
-              }
-              {
-                Constant.BACK_END_SKILLS.map((element) => {
-                  return <div
-                            className="skill-card"
-                            data-aos="flip-left"
-                            data-aos-delay="300"
-                          >
-                            <img
-                              alt={element.name}
-                              className="skills-img icon-li"
-                              src={element.link}
-                              title={element.name}
-                            />
-                            <h2 className="skill-name">{element.name}</h2>
-                          </div>
-                })
-              }
-              {
-                Constant.MOBILE_SKILLS.map((element) => {
-                  return <div
-                            className="skill-card"
-                            data-aos="flip-left"
-                            data-aos-delay="300"
-                          >
-                            <img
-                              alt={element.name}
-                              className="skills-img icon-li"
-                              src={element.link}
-                              title={element.name}
-                            />
-                            <h2 className="skill-name">{element.name}</h2>
-                          </div>
-                })
-              }
+            <div
+              className="columns col-skill"
+              data-aos="fade-left"
+              data-aos-delay="650"
+            >
+                <div className="skill">
+                  {
+                    Constant.FRONT_END_SKILLS.map((element) => {
+                      return <div>
+                                <img
+                                  alt={element.name}
+                                  className="icons-skils"
+                                  src={element.link}
+                                />
+                                {/* <h5>{element.name}</h5> */}
+                              </div>
+                    })
+                  }
+                </div>
+                <div className="skill">
+                {
+                    Constant.BACK_END_SKILLS.map((element) => {
+                      return <div>
+                                <img
+                                  alt={element.name}
+                                  className="icons-skils"
+                                  src={element.link}
+                                />
+                                {/* <h5>{element.name}</h5> */}
+                              </div>
+                    })
+                  }
+              </div>
+                <div className="skill">
+                {
+                    Constant.MOBILE_SKILLS.map((element) => {
+                      return <div>
+                                <img
+                                  alt={element.name}
+                                  className="icons-skils"
+                                  src={element.link}
+                                />
+                                {/* <h5>{element.name}</h5> */}
+                              </div>
+                    })
+                  }
+                </div>
+              </div>
             </div>
-          </div>
         </section>
       </main>
 

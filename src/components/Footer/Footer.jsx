@@ -30,13 +30,13 @@ const Footer = () => {
           >
             <i className="fab fa-skype"></i>
           </a>
-          <a
+          {/* <a
             href={Constant.GITHUB_ADDRESS}
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-github"></i>
-          </a>
+          </a> */}
           <a
             href={Constant.GMAIL_ADDRESS}
             target="_blank"

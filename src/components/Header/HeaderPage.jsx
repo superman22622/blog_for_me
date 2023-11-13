@@ -39,7 +39,7 @@ const HeaderPage = () => {
 
       <NavLink className="logo" to="/">
         <p>
-          <span>{Constant.NAME}</span>
+          <span>{Constant.HEADER_NAME}</span>
         </p>
       </NavLink>
 

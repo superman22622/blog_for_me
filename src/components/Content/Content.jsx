@@ -33,7 +33,7 @@ const Content = () => (
             </div>
             <span>Skype</span>
           </a>
-          <a
+          {/* <a
             className="button"
             href={Constant.GITHUB_ADDRESS}
             target="_blank"
@@ -58,7 +58,7 @@ const Content = () => (
               <i className="fab fa-discord"></i>
             </div>
             <span>Discord</span>
-          </a>
+          </a> */}
           <a
             className="button"
             href={Constant.TELEGRAM_ADDRESS}
