@@ -14,9 +14,13 @@ const Content = () => (
     {/* <ParticleHeaderBg /> */}
     <div className="inicio" id="inicio">
       <div className="titulo">
-        <h1 data-aos="fade-up" data-aos-delay="500">
-          <FormattedMessage id="namess" defaultMessage={Constant.INTRO_HEADER} />
-        </h1>
+        {
+          Constant.INTRO_HEADER.map((element, idx) => {
+            return <h1 data-aos="fade-up" data-aos-delay="500">
+                    <FormattedMessage id="namess" defaultMessage={element} />
+                  </h1>
+          })
+        }
         <p className="h_intro">{Constant.INTRO_CONTENT}</p>
 
         <div className="wrapper">
@@ -71,6 +75,19 @@ const Content = () => (
               <i className="fab fa-telegram"></i>
             </div>
             <span>Telegram</span>
+          </a>
+          <a
+            className="button"
+            href={Constant.INSTAGRAM_ADDRESS}
+            target="_blank"
+            rel="noopener noreferrer"
+            data-aos="fade-up"
+            data-aos-delay="1200"
+          >
+            <div className="icon">
+              <i className="fab fa-instagram"></i>
+            </div>
+            <span>Instagram</span>
           </a>
         </div>
 

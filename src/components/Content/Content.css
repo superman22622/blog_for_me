@@ -27,6 +27,8 @@
 }
 
 .inicio .titulo h1{
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 4.5rem;
     color: var(--green);
 }

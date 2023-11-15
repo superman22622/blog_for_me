@@ -11,9 +11,14 @@ export const GITHUB_ADDRESS = '';
 export const GMAIL_ADDRESS = 'mailTo:redhorizon.llc@gmail.com';
 export const DISCORD_ADDRESS = '';
 export const TELEGRAM_ADDRESS = 'https://t.me/SeniorDev0918';
+export const INSTAGRAM_ADDRESS = 'https://instagram.com/m.edison_ai?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr';
 
 // Main Intro
-export const INTRO_HEADER = 'Web & Mobile Developer';
+export const INTRO_HEADER = [
+    "CEO, Red Horizon Technologies",
+    "Web & Mobile Developer",
+    "Wbe & App Designer"
+];
 export const INTRO_CONTENT = "My Mission Is To Continually Improve Each Subsequent Project, Surpassing The Quality Of The Previous One. This Commitment Has Resulted In A Remarkable 70% Repeat Hire Rate, And I Have Had The Privilege Of Working With Certain Clients For Over 7 Years. This Is More Than Just A Job To Me. It Is My Life's Passion.";
 
 // What i am
@@ -48,7 +53,7 @@ export const WHAT_I_DO = [
         icon: 'fa fa-thumbs-up'
     },{
         header: 'SUPPORT',
-        content: 'Ensure smooth and hassle-free website operations with our comprehensive web support services. From regular maintenance to timely updates and reliable troubleshooting, we keep your website running flawlessly, allowing you to focus on your core business.',
+        content: 'From regular maintenance to timely updates and reliable troubleshooting, we keep your website running flawlessly, allowing you to focus on your core business.',
         icon: 'fas fa-wrench'
     },
 ];

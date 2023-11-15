@@ -110,6 +110,21 @@ const Contact = () => (
         </div>
         <div className="text">Telegram</div>
       </a>
+      <a
+        href={Constant.INSTAGRAM_ADDRESS}
+        target="_blank"
+        rel="noopener noreferrer"
+        data-aos="zoom-in"
+      >
+        <div className="layer">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span className="fab fa-instagram"></span>
+        </div>
+        <div className="text">Instagram</div>
+      </a>
     </div>
   </section>
 );

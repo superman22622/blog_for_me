@@ -51,6 +51,13 @@ const Footer = () => {
           >
             <i className="fab fa-telegram"></i>
           </a>
+          <a
+            href={Constant.INSTAGRAM_ADDRESS}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-instagram"></i>
+          </a>
         </div>
       </div>
     </footer>
