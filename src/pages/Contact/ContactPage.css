@@ -5,6 +5,12 @@
     margin-top: 3rem;
 }
 
+.contactos p {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
 .contactos .titulo {
     font-size: 2.5rem;
     font-weight: normal;

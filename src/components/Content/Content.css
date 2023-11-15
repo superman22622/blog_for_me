@@ -29,8 +29,9 @@
 .inicio .titulo h1{
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 4.5rem;
-    color: var(--green);
+    font-size: 3rem;
+    /* color: var(--green); */
+    color: #050FD8;
 }
 
 .wrapper {
@@ -48,7 +49,8 @@
     margin: 0 2rem;
     overflow: hidden;
     color: #000;
-    background: var(--green);
+    /* background: var(--green); */
+    background: #050FD8;
     border-radius: 50px;
     cursor: pointer;
     box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
@@ -179,7 +181,6 @@
 .titulo h1 {
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 35px !important;
 }
 .h_intro {
     font-size: 20px !important;
@@ -202,6 +203,10 @@
         box-sizing: border-box;
         line-height: 60px;
         transition: all 0.3s ease-out;
+    }
+
+    .titulo h1 {
+        font-size: 2.5rem;
     }
 
     .scroll-down {
@@ -251,6 +256,10 @@
     .titulo .redes-sociales{
         display: block;
     }
+
+    .inicio .titulo h1 {
+        font-size: 3rem;
+    }
 }
 
 @media (max-width: 450px) {
@@ -263,7 +272,7 @@
     }
     
     .inicio .titulo h1{
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     .scroll-down {
         display: none;
@@ -271,5 +280,35 @@
 
     .icons a{
         margin: 5rem 2rem;
+    }
+}
+
+@media (max-width: 415px) {
+    .contenido {
+        min-height: 500px;
+    }
+
+    .inicio .titulo p {
+        font-size: 3rem;
+    }
+    
+    .inicio .titulo h1{
+        font-size: 2.3rem;
+    }
+    .scroll-down {
+        display: none;
+    }
+
+    .titulo {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .icons a{
+        margin: 5rem 2rem;
+    }
+
+    .h_intro {
+        font-size: 17px !important;
     }
 }
