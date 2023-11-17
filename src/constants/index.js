@@ -2,7 +2,7 @@
 export const NAME = 'Reginald Newsome';
 export const HEADER_NAME = 'Red Horizon Technologies';
 export const FIRST_NAME = 'Reginald';
-export const CREATED_BY = 'Page created by ' + FIRST_NAME;
+export const CREATED_BY = 'Powered by Red Horizon, LLC';
 export const ABOUT_ME = 'I am a proficient and self-motivated Software Developer with 7 years of successful experience. My passion for working in this field is immense, and I am always eager to learn the latest and most updated materials. I consistently strive to improve my skills and deliver high-quality work. Apart from my technical expertise, I possess a keen eye for design and user experience. This allows me to create intuitive and engaging interfaces that keep users coming back for more. Whether you need a new website, an overhaul of an existing application, or a custom e-commerce platform, I have the necessary expertise and experience to deliver exceptional results.I strongly believe in the values of hard work and honesty. Building long-term professional relationships with my clients is of utmost importance to me, as it ensures the success of every project.';
 
 // Contact Info
