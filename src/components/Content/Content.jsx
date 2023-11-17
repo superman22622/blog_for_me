@@ -21,7 +21,7 @@ const Content = () => (
                     </h1>
           })
         }
-        <p className="h_intro">{Constant.INTRO_CONTENT}</p>
+        <p className="h_intro"><q>{Constant.INTRO_CONTENT}</q></p>
 
         <div className="wrapper">
           <a
