@@ -23,20 +23,13 @@ const Footer = () => {
           <p>&copy; {fecha}. All Rights Reserved.</p>
         </div>
         <div className="redes-sociales">
-          <a
+          {/* <a
             href={Constant.SKYPE_ADDRESS}
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-skype"></i>
           </a>
-          {/* <a
-            href={Constant.GITHUB_ADDRESS}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-github"></i>
-          </a> */}
           <a
             href={Constant.GMAIL_ADDRESS}
             target="_blank"
@@ -57,7 +50,10 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
             <i className="fab fa-instagram"></i>
-          </a>
+          </a> */}
+          <h1>Terms of Use and Privacy Policy</h1>
+          <p>Early Access to Grok</p>
+          <p>We are offering a limited number of users in the United States to try out our Grok prototype and provide valuable feedback that will help us improve its capabilities before a wider release. You can join the Grok waitlist here.This release just represents the first step for xAl.Looking ahead, we have an exciting roadmap and will be rolling out new capabilities and features in the coming months.</p>
         </div>
       </div>
     </footer>

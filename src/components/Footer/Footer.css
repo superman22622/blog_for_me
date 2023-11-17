@@ -10,6 +10,7 @@
 .site-footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .site-footer .copyright{
@@ -18,7 +19,16 @@
 }
 
 .redes-sociales{
+    width: 50%;
     padding: 2rem 0;
+}
+
+.redes-sociales p {
+    font-size: 1.5rem;
+}
+
+.redes-sociales h1 {
+    margin-bottom: 10px;
 }
 
 .redes-sociales a{
