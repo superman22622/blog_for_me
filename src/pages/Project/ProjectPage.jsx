@@ -127,68 +127,37 @@ function Project() {
                     <div className="pw-content">
                         <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-18-com.png`)} alt="" /></div>
                         <div className="eins-modal-text">
-                            <h1>Acorns: Save & Invest</h1>
+                            <h1>SpiceJet – Book Cheap Flights</h1>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-18-p1'
-                                    defaultMessage="Acorns helps you invest and save for your future. With over 20 million downloads and $15+ billion invested for our customers since launch, we are an ultimate investing and money-saving app. Get started in minutes, and give your money a chance to grow.
+                                    defaultMessage="Welcome to the SpiceJet Mobile app for iPhone.
 
-                                    “Investing is now made for everyone.” - Forbes (1)
+
+                                    Now planning your travel is much easier and smarter than ever before. SpiceJet Mobile App allows you to book tickets, manage your booking, add exciting SpiceJet add-on products and avail exclusive offers and privileges.
                                     
-                                    Invest, save, learn and grow with Acorns. Receive the tools to help your money grow.
                                     
-                                    + INVEST FOR YOUR FUTURE - Your money is automatically invested into one of our diversified, ETF portfolios, built by experts and recommended for you. Plus, easily personalize your investments with a Bitcoin-linked ETF and a Custom Portfolio option which allows you to invest in stocks from a list of 100+ public U.S. companies. At Acorns, we keep diversification in mind with the belief it can help you make the most of your money.
+                                    Features:
                                     
-                                    +INVEST THE CHANGE® - Invest spare change with automatic Round-Ups®, and invest money in the background of life with recurring investments.
                                     
-                                    + INVEST FOR YOUR KIDS - With Acorns Early, you can start investing for the future of your loved ones. Our UTMA / UGMA investment account for kids features custom Earn rewards and education for families. Invest automatically into a diversified, ETF portfolio, built by experts.
+                                    • Flight Booking - With the SpiceJet mobile app you can now book tickets quickly, conveniently, anywhere and anytime in a safe and secured environment.
                                     
-                                    + TEACH YOUR KIDS MONEY SKILLS - GoHenry is a debit card and learning app for kids that helps them grow their money skills. Kids get their own debit card and can earn money with automatic allowance and chore payments. Parents can set spending limits, get real-time notifications when your kids use their card, and instantly send money to your kid’s account. Valued at up to $9.98/mo, GoHenry comes included with an Acorns Premium subscription.
                                     
-                                    + INVEST FOR RETIREMENT - Save money for retirement with our easy IRA investing options, featuring SEP, Traditional, and Roth plans.
+                                    • Manage your Booking - Change and cancel your booking with ease.
                                     
-                                    + BANK SMARTER - Get an Acorns Checking account and a heavy metal debit card that invests your spare change when you spend and automatically invests a portion of every paycheck. Get paid up to 2 days early when you set up direct deposit with Acorns Checking. Set an Emergency Fund goal and automatically start saving a piece of each paycheck.
                                     
-                                    + EARN REWARDS - Shop 15,000+ brands and receive bonus investments and exclusive deals from your favorite brands. Earn limited-time referral bonuses of up to $1,200. The more you earn, the more you can save and invest! Plus, try our Acorns Earn Safari Extension to automatically earn rewards while you shop.
+                                    • Other Products - Maximize your experience with Spicemax, buy meals, reserve seats, book extra luggage, book priority check in and priority baggage delivery and other new and exciting products.
                                     
-                                    + GROW YOUR KNOWLEDGE - Custom financial literacy content right in your app. Learn how to grow your money, investment and savings strategies, and more.
                                     
-                                    SAVE AND INVEST RESPONSIBLY WITH A MISSION-LED PARTNER
+                                    • Flight Status - Check real-time flights status on the move.
                                     
-                                    MISSION: With benevolence and courage, we look after the financial best interests of the up-and-coming, beginning with the empowering, proud step of micro-investing.
                                     
-                                    INVESTING PHILOSOPHY: The time-tested power of compounding, diversification, and sticking with it gives your money a chance to grow long-term.
-                                    
-                                    BACKED BY: Investors like Blackrock, PayPal, Dwayne Johnson, and Ashton Kutcher.
-                                    
-                                    SECURITY: Acorns Securities, LLC is a member of SIPC. Securities in your account are protected up to $500,000. For details, please see www.sipc.org. SIPC does not protect against market risk, which is the risk inherent in a fluctuating market. Acorns checking accounts are FDIC-insured up to $250,000 through Lincoln Savings Bank or nbkc bank, Members FDIC, plus fraud protection, 256-bit data encryption, and all-digital card lock. Learn more about how FDIC protection works at www.fdic.gov.
-                                    
-                                    NO HIDDEN FEES
-                                    
-                                    Starts at $3 a month.
-                                    
-                                    We bundle our products, tools, and education into straightforward subscription tiers so you can stay focused on investing for the long term.
-                                    
-                                    From acorns, mighty oaks do grow. Download Acorns now and grow your oak!
-                                    
-                                    —————————————
-                                    Disclosures are available in the images above and at www.acorns.com/disclosures
-                                    
-                                    Sources:
-                                    1. https://bit.ly/3iSAjhs
-                                    
-                                    5300 California Ave Irvine CA 92617"
-                                />
-                            </p>
-                            <p>
-                                <FormattedMessage
-                                    id='projectsApp-info-18-p2'
-                                    defaultMessage='The application has an authentication system, so that the user can access their account and carry out the operations they want, it also has a section where you can see the evolution of the different cryptocurrencies.'
+                                    • Deals - Get special and exclusive offers for SpiceJet Mobile app users."
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>WebSite Link:</span> <a href="https://www.acorns.com/" target="_blank">https://www.acorns.com/</a><br/>
-                                <span>App Link:</span> <a href="https://play.google.com/store/apps/details?id=com.acorns.android&hl=en&gl=US&pli=1" target="_blank">https://play.google.com/store/apps/details?id=com.acorns.android&hl=en&gl=US&pli=1</a>
+                                <span>Web Link:</span> <a href="https://www.spicejet.com/" target="_blank">https://www.spicejet.com/</a><br/>
+                                <span>App Link:</span> <a href="https://apps.apple.com/in/app/spicejet-book-cheap-flights/id998319513" target="_blank">https://apps.apple.com/in/app/spicejet-book-cheap-flights/id998319513</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -198,10 +167,8 @@ function Project() {
                                     />
                                 </span>
                                 <div className="eins-modal-tec-2">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="" />
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="" />
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="" />
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="" />
                                 </div>
@@ -219,26 +186,34 @@ function Project() {
                     <div className="pw-content">
                         <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-17-com.png`)} alt="" /></div>
                         <div className="eins-modal-text">
-                            <h1>MyFitnessPal: Calorie Counter</h1>
+                            <h1>InvestFar Real Estate - Invest </h1>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-17-p2'
-                                    defaultMessage="Track progress toward your nutrition, fitness, and weight loss goals with MyFitnessPal. This all-in-one food tracker, calorie counter, macro tracker, and fitness tracker is like having a nutrition coach, meal planner, fitness tracker & food diary with you every day.
+                                    defaultMessage="InvestFar is the leading real estate investor marketplace and database specifically dedicated to empowering real estate investors with data, resources and knowledge to instill confidence buying property in any market globally. Empowered by AI.
 
-                                    MyFitnessPal is a health and nutrition app that helps you learn about your food habits, monitor your diet, make smarter diet choices, and conquer your fitness goals.
+
+                                    Effectively grow or manage your real estate portfolio in any market globally. With our free app you can discover and compare lenders of all types from cash buyers, private lenders for fix and flips, land purchases and traditional buy and holds.
                                     
-                                    Download our health and nutrition app and start your free 30-day Premium trial to gain access to exclusive food tracker and fitness logging tools, expert guidance, and the calorie counter. You’ll soon discover why MyFitnessPal is the #1 nutrition and food tracker in the U.S and has been featured in the New York Times, Wall Street Journal, the Today Show, and U.S. News & World Report.
+                                    
+                                    Don’t waste your time calling around for quotes, simple push a button and request quotes from your choice of pros in the database. Once selected, book the appointment and have the scheduled time automatically popup in your calendar, never wonder what time they’ll arrive.
                                     
                                     
-                                    SO MUCH MORE THAN A CALORIE
-                                    COUNTER & DIET JOURNAL
+                                    Increase Sales for companies and contractors because our app lets you book and schedule or cancel appointments and maintain quote request.
                                     
-                                    The leading health and nutrition app is like having a fitness tracker, macros counter, diet planner, and nutrition coach at your fingertips."
+                                    
+                                    If you’re unsure of the market you’re interested in, search the app for a vetted active investor consultant to go over the area of interest before investing, they will also help you find a property for a deal. The InvestFar app is the quickest and easiest way to get into real estate investing.
+                                    
+                                    
+                                    Find an area, speak to a consultant, pick a property, find a contractor, list it and have it managed.
+                                    
+                                    
+                                    Download the app for free today, use it anywhere and start investing. In app purchases for additional services and features are available."
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Website Link:</span> <a href="https://www.myfitnesspal.com/" target="_blank">https://www.myfitnesspal.com/</a><br/>
-                                <span>App Link:</span> <a href="https://play.google.com/store/apps/details?id=com.myfitnesspal.android&hl=en_US&gl=US" target="_blank">https://play.google.com/store/apps/details?id=com.myfitnesspal.android&hl=en_US&gl=US</a>
+                                <span>Website Link:</span> <a href="https://investfar.com/" target="_blank">https://investfar.com/</a><br/>
+                                <span>App Link:</span> <a href="https://apps.apple.com/us/app/investfar-real-estate-invest/id1327794180" target="_blank">https://apps.apple.com/us/app/investfar-real-estate-invest/id1327794180</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -252,8 +227,6 @@ function Project() {
                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="" />
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="" />
 
                                 </div>
                             </div>

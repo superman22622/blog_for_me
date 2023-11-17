@@ -56,16 +56,13 @@ const Project = () => {
           <SwiperSlide className="caja">
             <img src={proyectImg(`./proyecto-app-18.png`)} alt="proyectos" />
             <div className="content">
-              <h3>Acorns</h3>
-              <p>Acorns helps you invest and save for your future.</p>
+              <h3>SpiceJet</h3>
+              <p>SpiceJet – Book Cheap Flights</p>
               <p className="tecnologias">
-                React Native
-                <span> -</span> React
+                Flutter
+                <span> -</span> Dart
                 <span> -</span> Firebase
-                <span> -</span> Redux
-                <span> -</span> TypeScript
                 <span> -</span> NodeJS
-                <span> -</span> MongoDB
               </p>
               {/* <a href="https://https://coin-plus.vercel.app/" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a> */}
             </div>
@@ -73,8 +70,8 @@ const Project = () => {
           <SwiperSlide className="caja">
             <img src={proyectImg(`./proyecto-app-17.png`)} alt="proyectos" />
             <div className="content">
-              <h3>MyFitnessPal</h3>
-              <p>Track progress toward your nutrition, fitness, and weight loss goals with MyFitnessPal.</p>
+              <h3>InvestFar</h3>
+              <p>InvestFar Real Estate - Invest </p>
               <p className="tecnologias">
                 React Native
                 <span> -</span> React
