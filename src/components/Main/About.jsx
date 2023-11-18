@@ -3,7 +3,7 @@ import React from "react";
 import * as Constant from '../../constants';
 import "../../pages/About/AboutPage.css";
 import { Link } from "react-router-dom";
-import cv from "../../cv/cv.pdf";
+import cv from "../../assets/cv.pdf";
 import { ButtomGet } from "../ButtomGet/ButtomGet";
 
 /* Multi idioma */

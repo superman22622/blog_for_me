@@ -19,7 +19,6 @@
 }
 
 .redes-sociales{
-    width: 50%;
     padding: 2rem 0;
 }
 
@@ -32,8 +31,8 @@
 }
 
 .redes-sociales a{
-    font-size: 3rem;
-    padding-left: 4rem;
+    font-size: 1.5rem;
+    padding: 2rem;
     color: var(--black);
 }
 

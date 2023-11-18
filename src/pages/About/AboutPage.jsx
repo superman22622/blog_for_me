@@ -7,7 +7,7 @@ import "./AboutPage.css";
 import HeaderPage from "../../components/Header/HeaderPage";
 import Footer from "../../components/Footer/Footer";
 import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
-import cv from "../../cv/cv.pdf";
+import cv from "../../assets/cv.pdf";
 
 /* Multi idioma */
 import { FormattedMessage } from "react-intl";
