@@ -24,7 +24,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-      navigate("/about");
+      navigate("/");
     }, 1000);
   }, []);
   return (
