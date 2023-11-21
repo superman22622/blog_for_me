@@ -26,9 +26,7 @@ const Contact = () => (
           1500,
           "Telegram",
           1500,
-          "Discord",
-          1500,
-          "Github",
+          "Instagram",
           1500,
         ]}
       />
