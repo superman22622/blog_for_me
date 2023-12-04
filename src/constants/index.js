@@ -15,10 +15,12 @@ export const INSTAGRAM_ADDRESS = 'https://instagram.com/m.edison_ai?igshid=MzMyN
 
 // Main Intro
 export const INTRO_HEADER = [
-    "CEO, Red Horizon Technologies",
-    "Web & Mobile Developer",
-    "Web & App Designer"
+    "Chief Executive Officer, Red Horizon Technologies ",
+    "Website and Mobile Developer ",
+    "Website and Application Designer ",
+    "Project Management Solutions Specialist"
 ];
+
 export const INTRO_CONTENT = "My Mission Is To Continually Improve Each Subsequent Project, Surpassing The Quality Of The Previous One. This Commitment Has Resulted In A Remarkable 70% Repeat Hire Rate, And I Have Had The Privilege Of Working With Certain Clients For Over 7 Years. This Is More Than Just A Job To Me. It Is My Life's Passion.";
 
 // What i am

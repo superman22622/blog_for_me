@@ -11,6 +11,7 @@ import DarkMode from "../DarkMode/DarkMode";
 /* Language */
 import { FormattedMessage } from "react-intl";
 import { langContext } from "../../context/Context";
+import Photo from '../../img/header_avatar.jpg'
 
 const Header = () => {
   // Buttom language
@@ -37,7 +38,10 @@ const Header = () => {
         onClick={menuDesplegable}
       ></div>
 
-      <a href="/kstar0102-portfolio" className="logo"><span>{Constant.HEADER_NAME}</span></a>
+      <a href="https://redhorizonmedtech.info/" className="logo" target="_blank">
+        <img src={Photo} className="header_avatar" />
+        <span>{Constant.HEADER_NAME}</span>
+      </a>
 
       <nav className="navbar">
         <Link to="inicio" spy={true} offset={-150} href="#inicio">
@@ -52,6 +56,9 @@ const Header = () => {
         <Link to="proyectos" spy={true} offset={-150} href="#proyectos">
           <FormattedMessage id="projects" defaultMessage="Projects" />
         </Link>
+        <a href="https://www.renew360medtech.app" target="_blank">
+          <FormattedMessage id="products" defaultMessage="Products" />
+        </a>
         <Link to="contactos" spy={true} offset={-150} href="#contactos">
           <FormattedMessage id="contact" defaultMessage="Contact" />
         </Link>

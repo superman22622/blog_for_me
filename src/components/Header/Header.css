@@ -1,5 +1,12 @@
 /********************** header **********************/
 
+.header_avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
 .site-header {
   position: fixed;
   top: 0;
@@ -10,17 +17,21 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 8%;
+  padding: 2rem 3%;
 }
 
 .site-header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "Bebas Neue", cursive;
   font-size: 2.6rem;
   color: rgb(231, 13, 13);
 }
 
 .site-header .logo span {
-  color: red;
+  /* color: red; */
+  color: black;
 }
 
 .navbar {
