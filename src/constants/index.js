@@ -15,9 +15,10 @@ export const INSTAGRAM_ADDRESS = 'https://instagram.com/m.edison_ai?igshid=MzMyN
 
 // Main Intro
 export const INTRO_HEADER = [
-    "Chief Executive Officer, Red Horizon Technologies ",
-    "Website and Mobile Developer ",
-    "Website and Application Designer ",
+    "Chief Executive Officer, Red Horizon Technologies",
+    "Website and Mobile Developer",
+    "Website and Application Designer",
+    "AI Prompt Engineer and ChatGPT Developer",
     "Project Management Solutions Specialist"
 ];
 

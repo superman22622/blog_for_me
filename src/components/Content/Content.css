@@ -29,7 +29,7 @@
 .inicio .titulo h1{
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 3rem;
+    font-size: 2.5rem;
     /* color: var(--green); */
     color: #050FD8;
     /* color: white; */
@@ -166,7 +166,7 @@
     width: 50vw;
     text-align: left !important;
     padding: 14px;
-    margin-top: 15% !important;
+    margin-top: 12% !important;
     margin-left: 50px !important;
     background-color: #0000008f;
     border-radius: 10px;
@@ -178,15 +178,15 @@
     margin-top: 40vh !important;
     margin-left: 50px !important;
 }
-.titulo p, .titulo h1 {
+/* .titulo p, .titulo h1 {
     padding-left: 40px;
-}
+} */
 .titulo h1 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 .h_intro {
-    font-size: 23px !important;
+    font-size: 2rem !important;
     text-align: left;
     font-weight: 400 !important;
     font-family: system-ui;
@@ -195,6 +195,16 @@
 
 
 /********************** Media Q **********************/
+
+@media (max-width: 1200px) {
+    .inicio .titulo p {
+        font-size: 2.5rem;
+    }
+    
+    .inicio .titulo h1{
+        font-size: 2rem;
+    }
+}
 
 @media (max-width: 990px) {
     .wrapper .button .icon{
@@ -208,7 +218,7 @@
         transition: all 0.3s ease-out;
     }
 
-    .titulo h1 {
+    .inicio .titulo h1 {
         font-size: 2.5rem;
     }
 
@@ -217,7 +227,8 @@
         bottom: 50px;
     }
     .h_intro {
-        font-size: 21px !important;
+        font-size: 2rem !important;
+        margin-bottom: 20px !important;
     }
 }
 
@@ -235,7 +246,7 @@
     }
     
     .inicio .titulo h1{
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .inicio > .titulo {
@@ -246,7 +257,7 @@
     }
 
     .titulo p, .titulo h1 {
-        padding: 10px !important;
+        padding: 5px !important;
     }
 
     .h_intro {
