@@ -14,11 +14,13 @@
 }
 
 .site-footer .copyright{
+    flex: 1;
     font-size: 1.5rem;
     padding: 2rem 0;
 }
 
 .redes-sociales{
+    flex: 1;
     padding: 2rem 0;
 }
 
@@ -32,13 +34,16 @@
 
 .redes-sociales a{
     font-size: 1.5rem;
-    padding: 2rem;
     color: var(--black);
 }
 
 .titulo .redes-sociales a{
     padding: 2rem;
     color: var(--green);
+}
+
+.footer-terms {
+    text-align: right;
 }
 
 @media (max-width: 570px) {
@@ -51,8 +56,12 @@
     }
 
     .site-footer .redes-sociales a{
-        font-size: 2.5rem;
-        padding-left: 2rem;
+        font-size: 1.5rem;
         color: var(--black);
+    }
+
+    .footer-terms {
+        display: flex;
+        flex-direction: column;
     }
 }
