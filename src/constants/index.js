@@ -15,14 +15,13 @@ export const INSTAGRAM_ADDRESS = 'https://instagram.com/m.edison_ai?igshid=MzMyN
 
 // Main Intro
 export const INTRO_HEADER = [
-    "Chief Executive Officer, Red Horizon Technologies",
-    "Website and Mobile Developer",
-    "Website and Application Designer",
-    "AI Prompt Engineer and ChatGPT Developer",
-    "Project Management Solutions Specialist"
+    "CHIEF EXECUTIVE OFFICER",
+    "WEB / MOBILE DEVELOPER AND DESIGNER",
+    "PROMPT ENGINEER AND CHATGPT BUILDER",
+    "PROJECT MANAGEMENT SOLUTIONS SPECIALIST",
 ];
 
-export const INTRO_CONTENT = "My Mission Is To Continually Improve Each Subsequent Project, Surpassing The Quality Of The Previous One. This Commitment Has Resulted In A Remarkable 70% Repeat Hire Rate, And I Have Had The Privilege Of Working With Certain Clients For Over 7 Years. This Is More Than Just A Job To Me. It Is My Life's Passion.";
+export const INTRO_CONTENT = "In each project, I adopt a cycle of constant iteration, learning quickly and adapting.This method, focused on surpassing my previous work, has resulted in a 70% repeat hire rate. As a result, I’ve had the pleasure of collaborating with some clients for over 7 years. For me, this isn't just a job; it's a passion fueled by continual growth and the excitement of evolving with each challenge.";
 
 // What i am
 export const WHO_I_AM_TITLE = 'My name is ' + NAME + ' and I am a full stack developer.';
