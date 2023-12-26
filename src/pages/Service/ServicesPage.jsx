@@ -24,8 +24,8 @@ const Services = () => {
           </h2>
           <div className="row">
             {
-              Constant.WHAT_I_DO.map((element) => {
-                return <div className="columns" data-aos="fade-up" data-aos-delay="200">
+              Constant.WHAT_I_DO.map((element, idx) => {
+                return <div key={idx} className="columns" data-aos="fade-up" data-aos-delay="200">
                           <i className={element.icon}></i>
                           <h3>
                             <FormattedMessage

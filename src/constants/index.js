@@ -19,6 +19,8 @@ export const INTRO_HEADER = [
     "WEB / MOBILE DEVELOPER AND DESIGNER",
     "PROMPT ENGINEER AND CHATGPT BUILDER",
     "PROJECT MANAGEMENT SOLUTIONS SPECIALIST",
+    "DIGITAL NEUROSCIENTIST AND MD",
+    "QUANTUM ENGINEERING PIONEER"
 ];
 
 export const INTRO_CONTENT = "In each project, I adopt a cycle of constant iteration, learning quickly and adapting.This method, focused on surpassing my previous work, has resulted in a 70% repeat hire rate. As a result, I’ve had the pleasure of collaborating with some clients for over 7 years. For me, this isn't just a job; it's a passion fueled by continual growth and the excitement of evolving with each challenge.";

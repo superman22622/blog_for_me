@@ -16,8 +16,8 @@ const Content = () => (
       <div className="titulo">
         {
           Constant.INTRO_HEADER.map((element, idx) => {
-            return  <h1 data-aos="fade-up" data-aos-delay="500">
-                      <FormattedMessage id="namess" defaultMessage={element} />
+            return  <h1 key={idx} data-aos="fade-up" data-aos-delay="500">
+                      <FormattedMessage id="names" defaultMessage={element} />
                     </h1>
           })
         }

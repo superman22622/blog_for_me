@@ -27,8 +27,8 @@ const About = () => (
           />
         </h4>
         {
-          Constant.WHO_I_AM_CONTENT.map( (element) => {
-            return <p>{element}</p>
+          Constant.WHO_I_AM_CONTENT.map((element, idx) => {
+            return <p key={idx}>{element}</p>
           })
         }
         <div className="mas-info">
@@ -57,8 +57,8 @@ const About = () => (
         <h4>Front-End</h4>
         <div className="skill">
           {
-            Constant.FRONT_END_SKILLS.map((element) => {
-              return <div>
+            Constant.FRONT_END_SKILLS.map((element, idx) => {
+              return <div key={idx}>
                         <img
                           alt={element.name}
                           className="icons-skils"
@@ -72,8 +72,8 @@ const About = () => (
         <h4>Back-End</h4>
         <div className="skill">
         {
-            Constant.BACK_END_SKILLS.map((element) => {
-              return <div>
+            Constant.BACK_END_SKILLS.map((element, idx) => {
+              return <div key={idx}>
                         <img
                           alt={element.name}
                           className="icons-skils"
@@ -87,8 +87,8 @@ const About = () => (
         <h4>Mobile App & Tools</h4>
         <div className="skill">
         {
-            Constant.MOBILE_SKILLS.map((element) => {
-              return <div>
+            Constant.MOBILE_SKILLS.map((element, idx) => {
+              return <div key={idx}>
                         <img
                           alt={element.name}
                           className="icons-skils"

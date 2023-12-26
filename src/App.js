@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Route, Routes, useNavigate } from "react-router-dom";
 
 import * as Constant from './constants';
@@ -17,24 +17,39 @@ import RouterScrollTop from "./components/ScrollToTop/RouterScrollTop";
 
 function App() {
   const [loading, setLoading] = useState(false);
+  const audioRef = useRef(null);
 
   const navigate = useNavigate();
 
   useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.play().catch(error => {
+        console.error("Error playing audio:", error);
+      });
+    }
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
       navigate("/");
-    }, 1000);
+      if (audioRef.current) {
+        audioRef.current.play().catch(error => {
+          console.error("Error playing audio:", error);
+        });
+      }
+    }, 3000);
   }, []);
   return (
     <>
+      <audio ref={audioRef} autoPlay>
+        <source src="https://hipstrumentals.com/wp-content/uploads/2023/10/Puff-Daddy-Ft.-The-Notorious-B.I.G.-Busta-Rhymes-Victory-Instrumental-Prod.-By-Stevie-J-Diddy.mp3" type="audio/mp3" />
+      </audio>
       <RouterScrollTop />
       {loading ? (
         <div className="loading-pag">
           <div className="loader">
-            <span>{Constant.NAME}</span>
-            <span>{Constant.NAME}</span>
+            {/* <span>{Constant.NAME}</span>
+            <span>{Constant.NAME}</span> */}
+            <span>We Can Build ANYTHING</span>
           </div>
         </div>
       ) : (

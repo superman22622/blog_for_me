@@ -70,8 +70,8 @@ const About = () => {
             >
                 <div className="skill">
                   {
-                    Constant.FRONT_END_SKILLS.map((element) => {
-                      return <div>
+                    Constant.FRONT_END_SKILLS.map((element, idx) => {
+                      return <div key={idx}>
                                 <img
                                   alt={element.name}
                                   className="icons-skils"
@@ -84,8 +84,8 @@ const About = () => {
                 </div>
                 <div className="skill">
                 {
-                    Constant.BACK_END_SKILLS.map((element) => {
-                      return <div>
+                    Constant.BACK_END_SKILLS.map((element, idx) => {
+                      return <div key={idx}>
                                 <img
                                   alt={element.name}
                                   className="icons-skils"
@@ -98,8 +98,8 @@ const About = () => {
               </div>
                 <div className="skill">
                 {
-                    Constant.MOBILE_SKILLS.map((element) => {
-                      return <div>
+                    Constant.MOBILE_SKILLS.map((element, idx) => {
+                      return <div key={idx}>
                                 <img
                                   alt={element.name}
                                   className="icons-skils"

@@ -15,8 +15,8 @@ const Service = () => (
     </h2>
     <div className="row service_section">
     {
-        Constant.WHAT_I_DO.map((element) => {
-          return <div className="columns" data-aos="fade-up" data-aos-delay="300">
+        Constant.WHAT_I_DO.map((element, idx) => {
+          return <div key={idx} className="columns" data-aos="fade-up" data-aos-delay="300">
                     <i className={element.icon}></i>
                     <h3>
                       <FormattedMessage id="development" defaultMessage={element.header} />
