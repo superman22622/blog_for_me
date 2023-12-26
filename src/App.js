@@ -22,27 +22,49 @@ function App() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (audioRef.current) {
-      audioRef.current.play().catch(error => {
-        console.error("Error playing audio:", error);
-      });
+    const playAudio = () => {
+      if (audioRef.current) {
+        const playPromise = audioRef.current.play();
+        
+        if (playPromise !== undefined) {
+          playPromise
+          .then(() => {
+            // Audio started playing
+          })
+          .catch((error) => {
+            console.error("Error playing audio:", error);
+          });
+        }
+      }
+    };
+
+    const handleInteraction = () => {
+      playAudio();
     }
+
+    document.addEventListener("touchstart", handleInteraction);
+    document.addEventListener("click", handleInteraction);
+
     setLoading(true);
     setTimeout(() => {
+      // document.getElementById('audio').click();
+      // document.getElementsByTagName('audio').muted = false;
       setLoading(false);
       navigate("/");
-      if (audioRef.current) {
-        audioRef.current.play().catch(error => {
-          console.error("Error playing audio:", error);
-        });
-      }
     }, 3000);
+
+    return () => {
+      // Remove the event listener when the component unmounts
+      document.removeEventListener("touchstart", handleInteraction);
+      document.removeEventListener("click", handleInteraction);
+    };
   }, []);
   return (
     <>
       <audio ref={audioRef} autoPlay>
         <source src="https://hipstrumentals.com/wp-content/uploads/2023/10/Puff-Daddy-Ft.-The-Notorious-B.I.G.-Busta-Rhymes-Victory-Instrumental-Prod.-By-Stevie-J-Diddy.mp3" type="audio/mp3" />
       </audio>
+      <button id="audio" style={{position: "absolute", opacity: 0}}></button>
       <RouterScrollTop />
       {loading ? (
         <div className="loading-pag">
